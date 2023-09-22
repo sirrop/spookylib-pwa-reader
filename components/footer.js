@@ -1,3 +1,3 @@
-export default class ApplicationFooter extends HTMLDivElement {
+export default class ApplicationFooter extends HTMLElement {
 
 }

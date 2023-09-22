@@ -1,3 +1,3 @@
-export default class IndexList extends HTMLDivElement {
+export default class IndexList extends HTMLElement {
 
 }

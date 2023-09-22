@@ -1,4 +1,4 @@
-export default class ApplicationHeader extends HTMLDivElement {
+export default class ApplicationHeader extends HTMLElement {
     constructor() {
         super();
 
@@ -8,10 +8,12 @@ export default class ApplicationHeader extends HTMLDivElement {
     }
 
     init() {
+        const shadow = this.attachShadow({ mode: 'open' })
+
         const h1 = document.createElement('h1')
         h1.innerText = this.title
-        this.h1 = h1
-        this.appendChild(h1)
+
+        shadow.appendChild(h1)
     }
 
     repaint() {

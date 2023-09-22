@@ -2,7 +2,7 @@
   "name": "spookylib-pwa-reader",
   "version": "1.0.0",
   "description": "[SpookyLib](https://spookylib.com/)のリーダーアプリです。",
-  "main": "service_worker.js",
+  "main": "sw.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
