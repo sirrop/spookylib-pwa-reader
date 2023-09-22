@@ -1,4 +1,5 @@
-const CACHE_NAME = "cache";
+const APP_VERSION = "0.1.0"
+const CACHE_NAME = `cache-${APP_VERSION}`;
 const URLS_TO_CACHE = [
     '/sirrop.github.io/'
 ];
