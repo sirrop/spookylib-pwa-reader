@@ -4,7 +4,6 @@ const URLS_TO_CACHE = [
     '/sirrop.github.io/'
 ];
 
-console.log('eval docs.sw')
 self.addEventListener('install', function (e) {
     e.waitUntil(
         caches.open(CACHE_NAME)
