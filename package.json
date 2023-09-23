@@ -1,11 +1,24 @@
 {
-  "name": "spookylib-pwa-reader",
-  "version": "1.0.0",
-  "description": "[SpookyLib](https://spookylib.com/)のリーダーアプリです。",
-  "main": "sw.js",
+  "name": "spooky-pwa-reader",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
   },
-  "author": "shiro",
-  "license": "Apache-2.0"
+  "dependencies": {
+    "bootstrap-icons": "^1.11.1",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@unhead/vue": "^1.7.4",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-ssg": "^0.23.3",
+    "vue-router": "^4.2.5",
+    "vue-tsc": "^1.8.5"
+  }
 }
