@@ -1,5 +1,0 @@
-#!/bin/bash
-
-cp manifest.json ./dist/manifest.json
-cp sw.js ./dist/sw.js
-git subtree push --prefix dist/ origin gh-pages
